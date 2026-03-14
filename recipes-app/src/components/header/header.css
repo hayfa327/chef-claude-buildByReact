@@ -1,0 +1,13 @@
+.navDesign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(178, 226, 177, 0.26);
+  size: 3rem;
+}
+
+.logo {
+  width: 5rem;
+}
+ 
