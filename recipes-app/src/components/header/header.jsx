@@ -5,11 +5,9 @@ import Logo from "./Logo.jpg"
 
 export default function Header () {
   return (
-<header>
-  <nav className="navDesign">
+<header className="navDesign">
     <img className="logo"  src={Logo} alt="logo empgie for smile chef " /> 
-      <p className="logoTitle">Chef Claude</p>
-     </nav>
+      <h1 className="logoTitle">Chef Claude</h1>
 </header>
 
 
