@@ -1,0 +1,33 @@
+main {
+  padding: 10rem ;
+}
+
+.addIngre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.addIngre > input {
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  padding: 9px 13px; 
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+   
+   padding: 1rem;
+  flex-grow: 1;
+  min-width: 29rem;
+  max-width: 700px;
+}
+
+.addIngre > button {
+  padding: 0.9rem;
+  width: 7.5rem;
+  background-color: black;
+  color: aliceblue;
+  min-width: 10rem;
+  max-width: 100px;
+  border-radius: 6px;
+  font-size: medium;
+}
